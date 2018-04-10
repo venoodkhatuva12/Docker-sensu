@@ -8,7 +8,7 @@ It runs redis, rabbitmq-server, uchiwa, sensu-api, sensu-server and ssh processe
 Install from docker index or build from Dockerfile
 
 ```
-docker pull venood12/docker-sensu-server
+docker pull venood12/Docker-sensu
 ```
 
 or
