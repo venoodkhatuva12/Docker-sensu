@@ -1,0 +1,7 @@
+{
+  "client": {
+    "name": "Sensu-Server",
+    "address": "localhost",
+    "subscriptions": [ "ALL" ]
+  }
+}
