@@ -8,7 +8,7 @@ It runs redis, rabbitmq-server, uchiwa, sensu-api, sensu-server and ssh processe
 Install from docker index or build from Dockerfile
 
 ```
-docker pull venood12/Docker-sensu
+docker pull venood12/docker-sensu
 ```
 
 or
@@ -16,13 +16,13 @@ or
 ```
 git clone https://github.com/venoodkhatuva12/Docker-sensu.git
 cd Docker-sensu
-docker build -t imagename/Docker-sensu .
+docker build -t imagename/docker-sensu .
 ```
 
 ## Run
 
 ```
-docker run -d -p 10022:22 -p 3000:3000 -p 4567:4567 -p 5671:5671 -p 15672:15672 venood12/Docker-sensu
+docker run -d -p 10022:22 -p 3000:3000 -p 4567:4567 -p 5671:5671 -p 15672:15672 venood12/docker-sensu
 ```
 
 ## How to access via browser and sensu-client
