@@ -1,7 +1,7 @@
 # docker-sensu
 
 CentOS 7 and sensu.
-It runs redis, rabbitmq-server, uchiwa, sensu-api, sensu-server and ssh processes.
+With redis, rabbitmq-server, uchiwa, sensu-api, sensu-server and ssh.
 
 ## Installation
 
@@ -11,7 +11,7 @@ Install from docker index or build from Dockerfile
 docker pull venood12/docker-sensu
 ```
 
-or
+OR
 
 ```
 git clone https://github.com/venoodkhatuva12/Docker-sensu.git
