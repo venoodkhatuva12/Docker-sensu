@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-MAINTAINER Dixit dbura@apple.com
+MAINTAINER Venood12 vinod.katuwa12@gmail.com
 
 # Basic packages
 RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
@@ -47,8 +47,6 @@ RUN wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py \
   && pip install supervisor
 
 ADD ./config-files/supervisord.conf /etc/supervisord.conf
-
-RUN /etc/init.d/sshd start && /etc/init.d/sshd stop
 
 EXPOSE 22 3000 4567 5671 15672
 
